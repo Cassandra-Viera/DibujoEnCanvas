@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+canvas {
+    /*background-color: black;
+    /*box-shadow: 0px 0px 20px 5px yellowgreen;*/
+    border: 5px solid white;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.select {
+    width: 520px;
+    padding: 20px 20px;
+    background-color: peru;
+    justify-content: space-between;
+}
+
+p {
+    padding: 20px;
+}
